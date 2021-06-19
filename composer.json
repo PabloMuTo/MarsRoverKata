@@ -1,0 +1,25 @@
+{
+    "name": "pmunoz/mars-rover",
+    "description": "Mars Rover Housfy",
+    "require-dev": {
+        "phpunit/phpunit": "9",
+        "mockery/mockery": "^1.4.3"
+    },
+    "require": {
+        "symfony/console": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Pablo Muñoz",
+            "email": "pablo.mu.to@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
